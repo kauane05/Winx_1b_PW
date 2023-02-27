@@ -10,4 +10,7 @@
 
 * Home
 * Quem somos
-* Instrumentos
+* Doces
+* Salgados
+* Contato
+* Localização

@@ -1,0 +1,25 @@
+.cabecalho{
+    padding: 30px;
+    text-align: center;
+    background-color: #83c5be;
+}
+.cabecalho h1 {
+font-size: 70px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #ffddd2;
+}
+.topnav{
+   
+    display:block;
+    
+}
+.center{
+   
+    text-align: center;
+}
+.imagens{
+    width: 50px;
+    padding:20px
+}

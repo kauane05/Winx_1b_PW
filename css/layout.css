@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    /*Modifica a maneira de exibir o tamanho de uma caixa, define como as dimensões de um elemento são calculadas: devem concluir preenchimento e bordas ou não*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
 .cabecalho{
     padding: 30px;
     text-align: center;
@@ -9,6 +18,21 @@ font-size: 70px;
 .topnav{
     overflow: hidden;
     background-color: #ffddd2;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: rgb(236, 233, 189);
+    color: rgb(12, 12, 12);
+    border-bottom: #dfdeaa solid 4px;
+    box-shadow: #e4df9b 4px 5px;
+    border-end-end-radius: 10px;
 }
 .topnav{
    
@@ -27,4 +51,40 @@ font-size: 70px;
 .principal{
     font-family: 'PT Sans', sans-serif;
     font-family: 'Quicksand', sans-serif;
+}
+.colDir{
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.colEsq{
+    float: left;
+    width: 75%;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .colEsq,
+    .colDir {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and(max-width: 400px){
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
 }

@@ -52,26 +52,20 @@ font-size: 70px;
     font-family: 'PT Sans', sans-serif;
     font-family: 'Quicksand', sans-serif;
 }
-.colDir{
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-right: 20px;
-}
+
 .card{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
 }
-.colEsq{
-    float: left;
-    width: 75%;
-}
+
 .footer{
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    overflow: hidden;
+    background-color: #83c5be;
 }
 
 @media screen and (max-width: 800px){

@@ -22,7 +22,7 @@ font-size: 70px;
 .topnav a{
     float: left;
     display: block;
-    color: #080808;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -81,4 +81,17 @@ font-size: 70px;
         float: none;
         width: 100%;
     }
+}
+
+.topnavfooter{
+    overflow: hidden;
+
+}
+.topnavfooter a{
+    float: center;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
